@@ -56,3 +56,10 @@ a {
 .link-effect:hover {
     transform: scale(1.05);
 }
+
+/* Estilo para el logo en el footer */
+#footer-section #footer-logo {
+    width: 140px;
+    height: 140px;
+  }
+  
