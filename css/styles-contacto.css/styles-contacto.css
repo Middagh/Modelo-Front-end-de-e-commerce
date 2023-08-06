@@ -49,7 +49,7 @@ form{
 
 
 iframe{
-    width: 400px; 
-    height:300;
-    border: 20px;
+    width: 100%; 
+    height: 100%;
 }
+
