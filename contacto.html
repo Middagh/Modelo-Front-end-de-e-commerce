@@ -73,26 +73,27 @@
         <div class="container row">
             <div class="col-lg-6 col-md-12 p-4">
                 <h1 class="section-heading text-uppercase font-weight-800 display-5 mb-4">Contacto</h1>
-
-                <form action="procesar_formulario.php" class="d-flex flex-column" method="POST">
+               
+                <form action="/error.html" class="d-flex flex-column" method="post">
                     <label for="nombre">Nombre:</label>
-                    <input class="bg-light text-dark border border-secundary rounded mb-4 p-1" type="text" id="nombre"
+                    <input class="bg-light text-dark border border-secondary rounded mb-4 p-1" type="text" id="nombre"
                         name="nombre" required minlength="3" maxlength="30" placeholder="Nombre">
-
+                
                     <label for="email">Email:</label>
-                    <input class="bg-light text-dark border border-secundary rounded mb-4 p-1" placeholder="Email"
-                        type="email" id="email" required minlength="5" maxlength="30
-                        name=" email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
-
+                    <input class="bg-light text-dark border border-secondary rounded mb-4 p-1" placeholder="Email"
+                        type="email" id="email" required minlength="5" maxlength="30"
+                        name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+                
                     <label for="mensaje">Mensaje:</label>
-                    <textarea class="bg-light text-dark border border-secundary rounded mb-5 p-1" id="mensaje"
-                        name="mensaje" required minlength="10" maxlength="500"
+                    <textarea class="bg-light text-dark border border-secondary rounded mb-5 p-1" id="mensaje"
+                        name="mensaje" required maxlength="500"
                         placeholder="Hasta 500 caracteres"></textarea>
                     <br>
-
-                    <input class="bg-success text-light border border-secundary rounded p-2 mb-5" type="submit"
+                
+                    <input class="bg-success text-light border border-secondary rounded p-2 mb-5" type="submit"
                         value="Enviar">
                 </form>
+                
 
             </div>
 
